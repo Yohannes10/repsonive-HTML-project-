@@ -1,0 +1,16 @@
+h1{
+    font-weight: 700;
+}
+
+footer{
+    height: 25vh;
+    background: linear-gradient(
+        100deg,
+        #f2f46d,
+        #f5464f
+    );
+
+}
+.products {
+    background-color: rgb(150, 175, 175);
+}

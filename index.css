@@ -1,0 +1,274 @@
+.cardrbody{
+    border: 0;
+}
+p{
+    font-size: medium;
+}
+h5{
+    
+    font-family: sans-serif;
+    
+    color: rgb(12, 12, 12);
+   
+}
+#button{
+    width: 80%;
+    max-width: 500px;
+}
+.search-bar{
+    width: 50%;
+    max-width: 500px;
+    background: rgb(200, 200, 200);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+
+
+}
+.search-bar input{
+    background: transparent;
+    flex: auto;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+    font-size: 20px;
+    color: #000000;
+}
+
+    
+body
+{
+ padding:0;
+ 
+
+ width: 80%;
+margin: auto;
+}  
+#plasma{
+    height:50ch;
+    width: 50ch;
+}
+#h1{
+    font-weight:normal;
+    font-size:4em;
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+#firstP{
+    font-weight:normal;
+    font-size:2em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    font-weight:normal;
+    font-size:4em;
+    font-family:'Times New Roman', Times, serif;
+}
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+#container2{
+    display: grid;
+    background-color: rgba(135,67,44,255);
+}
+#boxx{
+    grid-column: 1/9;
+    grid-row: 2;
+    padding: 4px;
+    border: 1px inset lightgrey;
+}
+header {
+    grid-column: 1/13;
+    grid-row: 1;
+    background-color: aliceblue;
+    text-align: center;
+    }
+footer {
+    grid-column: 1/13;
+    grid-row: 3;
+    background-color: aliceblue;
+    text-align: center;
+    }
+img{
+    color:rgba(7,68,60,255);
+    background-color: rgba(7,68,60,255);
+    border: none;
+}
+
+footer{
+    height: 25vh;
+    background: linear-gradient(
+        100deg,
+        #f2f46d,
+        #f5464f
+    );
+
+}
+
+.card{
+cursor: pointer;
+transition:0.5s ;
+filter:grayscale(1) brightness(0.5) ;
+border-radius: 5px;
+transition: 0.3s linear;
+}
+.card:hover{
+    filter :grayscale(0) brightness(1) ;
+}
+.cup{
+    width: 1200px;
+    height: 1200px;
+
+}
+nav {
+    background-color: #050505;
+    font-weight: bold;
+    
+    text-align: center;
+}
+
+.se{
+    width: 100%;
+    min-height: 100vh;
+    
+    background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9));
+    background-position: left;
+    background-size:cover ;
+}
+.container1{
+    padding: 5%;
+    background-color: rgba(7,68,60,255);
+}
+.foot {
+   
+  
+   background-size: cover;
+   
+   background-color: rgba(135,67,44,255);
+}
+.card-body {
+    
+    border: 0ch;
+}
+aside {
+    grid-column: 9/13;
+    grid-row: 2;
+    padding: 4px;
+   
+    }
+
+
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 24px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  
+
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  .service{
+    background:#a4893d;
+    width :100%;
+    padding: 100px 0px;
+  }
+  .title h3{
+    color: white;
+    font-size: 50px;
+    width :500px;
+    margin: 15px auto;
+    text-align:center ;
+  }
+
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+
+  }
+  .cardd{
+    height:350px;
+    width: 335px;
+    padding: 20px 35px;
+    background:  #628078;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+  }
+  
+  .wrapper {
+    width: 600px;
+    margin: 24px auto;
+  }
+  
+  blockquote {
+   
+    border-radius: 6px;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 17px;
+  }
+  p.author {
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 22px;
+    line-height:22px;
+    margin: 24px 0 0 18px;
+  }
+  strong {
+    color: rgb(68, 68, 68);
+  }

@@ -1,0 +1,37 @@
+h1{
+    font-weight: 700;
+}
+
+body{
+    background-color:rgb(143, 130, 107);
+}
+
+.Gender{
+    text-align: center;
+    font-size:3ch;
+}
+.container{
+    background-color:rgb(143, 130, 107);
+}
+.card{
+    mix-blend-mode: multiply;
+}
+button{
+    background-color:rgb(150, 125, 80);
+    border-color: rgb(153, 13, 13);
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    text-align: center;
+    font-size:3ch;
+    color: black;
+    background-color: black;
+}
+
+
+
+
+
+
+
